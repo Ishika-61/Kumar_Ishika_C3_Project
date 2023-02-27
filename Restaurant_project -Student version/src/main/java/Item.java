@@ -1,3 +1,4 @@
+
 public class Item {
     private String name;
     private int price;
@@ -16,5 +17,8 @@ public class Item {
                 + price
                 + "\n"
                 ;
+    }
+    public int getPrice() {
+        return price;
     }
 }
